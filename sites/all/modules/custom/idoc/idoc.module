@@ -1,0 +1,10 @@
+<?php
+
+function idoc_form_alter(&$form, &$form_state, $form_id) {
+
+  switch($form_id) {
+    case 'sequence_node_form':
+      $form["field_storyworld"]["und"]['#default_value'] = $_GET['nid'];
+      break;
+  }
+}

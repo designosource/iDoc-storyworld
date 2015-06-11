@@ -1,0 +1,16 @@
+footer{
+  background-color: $gray;
+  text-align: center;
+  color: white;
+  padding: 10px 0 10px 0;
+  img{
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  p, a{
+    display: inline-block;
+    margin-top: 0px;
+    color: white;
+  }
+}

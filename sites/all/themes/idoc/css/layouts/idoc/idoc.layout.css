@@ -1,81 +1,10 @@
-/* No files to import found in abstractions/**\/* */
-/* line 1, ../sass/base/_blocks.scss */
-#block-block-1 {
-  position: relative;
-  text-align: center;
-  height: 275px;
-  overflow: hidden; }
-  /* line 6, ../sass/base/_blocks.scss */
-  #block-block-1 img {
-    width: 100%; }
-  /* line 9, ../sass/base/_blocks.scss */
-  #block-block-1 #tagline {
-    font-size: 3em;
-    position: absolute;
-    margin: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    line-height: 275px; }
-
-/* line 2, ../sass/base/_forms.scss */
-form label {
-  color: #bb9809; }
-/* line 5, ../sass/base/_forms.scss */
-form input {
-  padding: 5px; }
-/* line 8, ../sass/base/_forms.scss */
-form .form-submit {
-  color: #bb9809;
-  background-color: transparent;
-  border: 1px solid #bb9809;
-  padding: 5px 15px 5px 15px; }
-  /* line 13, ../sass/base/_forms.scss */
-  form .form-submit:hover {
-    color: white;
-    background-color: #bb9809; }
-
-/* line 1, ../sass/base/_links.scss */
-a:link, a:visited {
-  color: #bb9809; }
-
-/* line 1, ../sass/base/_media.scss */
-img, media {
-  max-width: 100%; }
-
-/* line 1, ../sass/base/_regions.scss */
-.l-branding {
-  margin: 10px 0 0 0; }
-  /* line 4, ../sass/base/_regions.scss */
-  .l-branding .site-logo img {
-    width: 250px; }
-
-/* line 1, ../sass/components/_footer.scss */
-footer {
-  background-color: #1d1d1b;
-  text-align: center;
-  color: white;
-  padding: 10px 0 10px 0; }
-  /* line 6, ../sass/components/_footer.scss */
-  footer img {
-    height: 50px;
-    display: block;
-    margin: 0 auto; }
-  /* line 11, ../sass/components/_footer.scss */
-  footer p, footer a {
-    display: inline-block;
-    margin-top: 0px;
-    color: white; }
-
 /*******************************************************************************
  * simple.layout.scss
  *
  * Styling of the "simple" layout demonstrating the Compass grid extension Susy
  * and building mobile first layouts.
  ******************************************************************************/
-/* line 28, ../sass/layouts/idoc/idoc.layout.scss */
+/* line 28, ../../../sass/layouts/idoc/idoc.layout.scss */
 .l-header,
 .l-main {
   *zoom: 1;
@@ -89,14 +18,14 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px; }
-  /* line 38, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .l-header:after,
   .l-main:after {
     content: "";
     display: table;
     clear: both; }
 
-/* line 34, ../sass/layouts/idoc/idoc.layout.scss */
+/* line 34, ../../../sass/layouts/idoc/idoc.layout.scss */
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
@@ -104,36 +33,36 @@ footer {
   margin-bottom: 20px; }
 
 @media (min-width: 44em) {
-  /* line 42, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 42, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-header,
   .l-main {
     max-width: 1190px;
     max-width: 74.375rem; }
 
-  /* line 47, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 47, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-branding {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%; }
 
-  /* line 50, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 50, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-region--header {
     width: 66.10169%;
     float: right;
     margin-right: 0; }
 
-  /* line 53, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 53, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 60, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 60, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-first .l-content,
   .has-sidebar-second .l-content,
   .has-two-sidebars .l-content {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%; }
-  /* line 63, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 63, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-first .l-region--sidebar-first,
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-first,
@@ -143,72 +72,72 @@ footer {
     width: 32.20339%;
     float: right;
     margin-right: 0; }
-  /* line 67, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 67, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-second,
   .has-two-sidebars .l-region--sidebar-second {
     clear: right; } }
 @media (min-width: 70em) {
-  /* line 74, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 74, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-header,
   .l-main {
     max-width: 1190px;
     max-width: 74.375rem; }
 
-  /* line 79, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 79, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-branding {
     width: 36.70886%;
     float: left;
     margin-right: 1.26582%; }
 
-  /* line 82, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 82, ../../../sass/layouts/idoc/idoc.layout.scss */
   .l-region--header {
     width: 62.02532%;
     float: right;
     margin-right: 0; }
 
-  /* line 87, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 87, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0; }
-  /* line 90, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 90, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
 
-  /* line 95, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 95, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%; }
-  /* line 98, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 98, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
     margin-right: 0;
     clear: none; }
 
-  /* line 105, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 105, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%; }
-  /* line 109, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 109, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
-  /* line 113, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 113, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%; }
-  /* line 116, ../sass/layouts/idoc/idoc.layout.scss */
+  /* line 116, ../../../sass/layouts/idoc/idoc.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
     clear: none; } }
 
-/*# sourceMappingURL=idoc.styles.css.map */
+/*# sourceMappingURL=idoc.layout.css.map */

@@ -1,0 +1,18 @@
+form{
+  label{
+    color: $orange;
+  }
+  input{
+    padding: 5px;
+  }
+  .form-submit{
+    color: $orange;
+    background-color: transparent;
+    border: 1px solid $orange;
+    padding: 5px 15px 5px 15px;
+    &:hover{
+      color: white;
+      background-color: $orange;
+    }
+  }
+}

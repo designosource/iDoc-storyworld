@@ -21,3 +21,7 @@
 @import "base/**/*";
 @import "components/**/*";
 @import "layouts/**/*";
+
+body{
+  font-family: $SSP;
+}

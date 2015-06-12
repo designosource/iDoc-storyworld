@@ -25,14 +25,15 @@ form label {
   color: #bb9809; }
 /* line 5, ../sass/base/_forms.scss */
 form input {
-  padding: 5px; }
-/* line 8, ../sass/base/_forms.scss */
+  padding: 5px;
+  font-family: "Source Sans Pro", sans-serif; }
+/* line 9, ../sass/base/_forms.scss */
 form .form-submit {
   color: #bb9809;
   background-color: transparent;
   border: 1px solid #bb9809;
   padding: 5px 15px 5px 15px; }
-  /* line 13, ../sass/base/_forms.scss */
+  /* line 14, ../sass/base/_forms.scss */
   form .form-submit:hover {
     color: white;
     background-color: #bb9809; }
@@ -210,5 +211,8 @@ footer {
     float: right;
     margin-right: 0;
     clear: none; } }
+/* line 25, ../sass/idoc.styles.scss */
+body {
+  font-family: "Source Sans Pro", sans-serif; }
 
 /*# sourceMappingURL=idoc.styles.css.map */

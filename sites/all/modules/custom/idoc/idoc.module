@@ -8,3 +8,20 @@ function idoc_form_alter(&$form, &$form_state, $form_id) {
       break;
   }
 }
+
+function idoc_menu() {
+  $items['user/%user/logout'] = array(
+    'title' => t('Uitloggen'),
+    'page callback' => 'logout',
+    'page arguments' => array(1),
+    'access callback' => 'user_view_access',
+    'access arguments' => array(1),
+    'type' => MENU_LOCAL_TASK,
+  );
+
+  return $items;
+}
+
+function logout() {
+  drupal_goto('user/logout');
+}

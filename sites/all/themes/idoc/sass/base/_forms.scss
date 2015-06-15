@@ -13,5 +13,27 @@ form{
     @include roundedborder(10px);
     border-bottom: 5px solid darken($brown, 10%);
     padding: 5px 15px 5px 15px;
+    margin-right: 10px;
   }
+  .login-forgot{
+    margin-bottom: 20px;
+  }
+}
+
+.toboggan-unified{
+  #login-message{
+    display: none;
+  }
+  #login-links{
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 10px;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+#edit-actions{
+  margin-top: 10px;
 }

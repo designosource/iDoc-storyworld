@@ -35,7 +35,27 @@ form .form-submit {
   -moz-border-radius: 10px;
   border-radius: 10px;
   border-bottom: 5px solid #8c710d;
-  padding: 5px 15px 5px 15px; }
+  padding: 5px 15px 5px 15px;
+  margin-right: 10px; }
+/* line 18, ../sass/base/_forms.scss */
+form .login-forgot {
+  margin-bottom: 20px; }
+
+/* line 24, ../sass/base/_forms.scss */
+.toboggan-unified #login-message {
+  display: none; }
+/* line 27, ../sass/base/_forms.scss */
+.toboggan-unified #login-links {
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 10px; }
+  /* line 31, ../sass/base/_forms.scss */
+  .toboggan-unified #login-links a {
+    text-decoration: none; }
+
+/* line 37, ../sass/base/_forms.scss */
+#edit-actions {
+  margin-top: 10px; }
 
 /* line 1, ../sass/base/_links.scss */
 a:link, a:visited {

@@ -7,13 +7,11 @@ form{
     font-family: $SSP;
   }
   .form-submit{
-    color: $orange;
-    background-color: transparent;
-    border: 1px solid $orange;
+    color: white;
+    background-color: $brown;
+    border: none;
+    @include roundedborder(10px);
+    border-bottom: 5px solid darken($brown, 10%);
     padding: 5px 15px 5px 15px;
-    &:hover{
-      color: white;
-      background-color: $orange;
-    }
   }
 }
